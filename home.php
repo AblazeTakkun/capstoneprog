@@ -137,7 +137,7 @@ if (!isset($_SESSION['username'])) {
 </body>
 
 <?php  
-$connect = mysqli_connect("localhost", "root", "", "sallys"); 
+$connect = mysqli_connect("sql6.freemysqlhosting.net","sql6455215","XcE9smjsAe","sql6455215"); 
  $queryPieChart = "SELECT * from list";  
  $resultPieChart = mysqli_query($connect, $queryPieChart);  
  ?>  
@@ -234,7 +234,7 @@ Morris.Bar({
 
 
 <?php
-    $conn = mysqli_connect("localhost","root","","sallys");
+    $conn = mysqli_connect("sql6.freemysqlhosting.net","sql6455215","XcE9smjsAe","sql6455215");
     $count = 0;
 ?>
 

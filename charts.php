@@ -135,8 +135,15 @@
 <!-- ---------------------------------SALES WITHIN THE WEEK LINE GRAPH------------------------------------------------- -->
 </body>
 
+<!-- 
+$server = "sql6.freemysqlhosting.net";
+$user = "sql6455215";
+$pass = "XcE9smjsAe";
+$database = "sql6455215";
+-->
+
 <?php  
- $connect = mysqli_connect("localhost", "root", "", "sallys");  
+ $connect = mysqli_connect("sql6.freemysqlhosting.net", "sql6455215", "XcE9smjsAe", "sql6455215");  
  $queryLineGraph = "SELECT *
                     from complete
                     where day(date)=day(curdate())

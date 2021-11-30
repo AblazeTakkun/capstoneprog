@@ -144,7 +144,7 @@ if (!isset($_SESSION['username'])) {
 
                                         <tbody>
                                             <?php
-                                                $conn = mysqli_connect("localhost","root","","sallys");
+                                                $conn = mysqli_connect("sql6.freemysqlhosting.net","sql6455215","XcE9smjsAe","sql6455215");
                                                 $sql = "SELECT * FROM users";
                                                 $accounts = mysqli_query($conn, $sql);
                                                 $cnt = 0;

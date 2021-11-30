@@ -1,5 +1,12 @@
+<!--
+$server = "sql6.freemysqlhosting.net";
+$user = "sql6455215";
+$pass = "XcE9smjsAe";
+$database = "sql6455215";
+-->
+
 <?php 
-$conn = mysqli_connect("localhost","root","","sallys");
+$conn = mysqli_connect("sql6.freemysqlhosting.net","sql6455215","XcE9smjsAe","sql6455215");
 $custname = $_POST['customer'];
 $contactno = $_POST['phone'];
 $add = $_POST['add'];
